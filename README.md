@@ -37,81 +37,14 @@ Also, make note the following:
 
     5. If mode is ‘0’ then data is taken from switches, else taken from XORed data (of read output ports).
 
-Pin Name
-Direction
-Purpose
+![image](https://user-images.githubusercontent.com/25972864/40598577-1edf6fee-6266-11e8-9952-7f5ac5a8b419.png)
 
-
-
-clock
-Input (from push button)
-Clock for writes
-
-
-
-write_enable
-Input
-Write enable
-
-
-
-mode
-Input
-Decides write data source
-
-
-
-wr_addr(2:0)
-Input
-Write Address
-
-
-
-rd_addr1(2:0)
-Input
-Read Address (Port 1)
-
-
-
-rd_addr2(2:0)
-Input
-Read Address (Port 2)
-
-
-
-wr_data(3:0)
-Input
-Write Data
-
-
-
-rd_data1(3:0)
-Output
-Read Data (Port 1)
-
-
-
-rd_data2(3:0)
-Output
-Read Data (Port 2)
-
-
-
-rd_data1_xor_data2(3:0)
-Output
-XOR of Read Data
-
-
-
-Top Level Module Name
-lab3_reg_file
-
-
-
-
+![image](https://user-images.githubusercontent.com/25972864/40598596-42f52cfc-6266-11e8-8ea1-0b8e9bbbe922.png)
 
 The clock signal is mapped to push button - BTNC (centre button).
 
 D - Flip Flop (FF):
 
 Further, please use the following, D FF from the library.
+
+![image](https://user-images.githubusercontent.com/25972864/40598617-6e1a1b90-6266-11e8-8d1b-9a7d0c6c3abe.png)
